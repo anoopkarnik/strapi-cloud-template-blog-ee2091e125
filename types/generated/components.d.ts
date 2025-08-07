@@ -501,6 +501,7 @@ export interface TabsTestimonialProps extends Struct.ComponentSchema {
   attributes: {
     comment: Schema.Attribute.String;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    imagePath: Schema.Attribute.String;
     name: Schema.Attribute.String;
     rating: Schema.Attribute.Decimal;
   };

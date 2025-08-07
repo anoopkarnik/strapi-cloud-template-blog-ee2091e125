@@ -23,6 +23,9 @@
         "videos",
         "audios"
       ]
+    },
+    "imagePath": {
+      "type": "string"
     }
   },
   "config": {}
