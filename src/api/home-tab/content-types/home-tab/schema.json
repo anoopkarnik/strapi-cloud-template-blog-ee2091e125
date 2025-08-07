@@ -31,11 +31,6 @@
       "component": "landing-page-sections.service-section",
       "repeatable": false
     },
-    "TeamSection": {
-      "type": "component",
-      "component": "landing-page-sections.team-section",
-      "repeatable": false
-    },
     "AdventureSection": {
       "type": "component",
       "component": "landing-page-sections.adventure-section",
@@ -69,6 +64,11 @@
     "FooterSection": {
       "type": "component",
       "component": "landing-page-sections.footer-section",
+      "repeatable": false
+    },
+    "ExploreTeamSection": {
+      "type": "component",
+      "component": "landing-page-sections.explore-team-section",
       "repeatable": false
     }
   }

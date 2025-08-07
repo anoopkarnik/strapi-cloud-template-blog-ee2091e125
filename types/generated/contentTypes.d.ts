@@ -615,6 +615,10 @@ export interface ApiHomeTabHomeTab extends Struct.SingleTypeSchema {
       'landing-page-sections.enquiry-section',
       false
     >;
+    ExploreTeamSection: Schema.Attribute.Component<
+      'landing-page-sections.explore-team-section',
+      false
+    >;
     FooterSection: Schema.Attribute.Component<
       'landing-page-sections.footer-section',
       false
@@ -640,10 +644,6 @@ export interface ApiHomeTabHomeTab extends Struct.SingleTypeSchema {
     >;
     StudioSection: Schema.Attribute.Component<
       'landing-page-sections.studio-section',
-      false
-    >;
-    TeamSection: Schema.Attribute.Component<
-      'landing-page-sections.team-section',
       false
     >;
     TestimonialSection: Schema.Attribute.Component<

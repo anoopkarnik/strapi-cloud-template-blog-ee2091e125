@@ -139,17 +139,6 @@ export interface LandingPageSectionsStudioSection
   };
 }
 
-export interface LandingPageSectionsTeamSection extends Struct.ComponentSchema {
-  collectionName: 'components_landing_page_sections_team_sections';
-  info: {
-    displayName: 'TeamSection';
-  };
-  attributes: {
-    heading: Schema.Attribute.String;
-    teamList: Schema.Attribute.Component<'landing-page.team-props', true>;
-  };
-}
-
 export interface LandingPageSectionsTestimonialSection
   extends Struct.ComponentSchema {
   collectionName: 'components_landing_page_sections_testimonial_sections';
@@ -586,7 +575,6 @@ declare module '@strapi/strapi' {
       'landing-page-sections.navbar-section': LandingPageSectionsNavbarSection;
       'landing-page-sections.service-section': LandingPageSectionsServiceSection;
       'landing-page-sections.studio-section': LandingPageSectionsStudioSection;
-      'landing-page-sections.team-section': LandingPageSectionsTeamSection;
       'landing-page-sections.testimonial-section': LandingPageSectionsTestimonialSection;
       'landing-page-sections.video-testimonial-section': LandingPageSectionsVideoTestimonialSection;
       'landing-page.adventures': LandingPageAdventures;
