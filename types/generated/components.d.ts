@@ -461,7 +461,7 @@ export interface TabsProgramProps extends Struct.ComponentSchema {
     exclude: Schema.Attribute.Component<'shared.points-props', true>;
     images: Schema.Attribute.Component<'shared.image-props', true>;
     include: Schema.Attribute.Component<'shared.points-props', true>;
-    itenary: Schema.Attribute.Component<'tabs.itenary-props', true>;
+    itinerary: Schema.Attribute.Component<'tabs.itenary-props', true>;
     label: Schema.Attribute.String;
     minimumAge: Schema.Attribute.Integer;
     name: Schema.Attribute.String;

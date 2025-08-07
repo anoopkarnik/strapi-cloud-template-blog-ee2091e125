@@ -59,7 +59,7 @@
       "component": "shared.points-props",
       "repeatable": true
     },
-    "itenary": {
+    "itinerary": {
       "type": "component",
       "component": "tabs.itenary-props",
       "repeatable": true
