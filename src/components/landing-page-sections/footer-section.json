@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_landing_page_sections_footer_sections",
+  "info": {
+    "displayName": "FooterSection"
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contactInfo": {
+      "type": "component",
+      "component": "landing-page.contact-info-props",
+      "repeatable": false
+    },
+    "quickLinks": {
+      "type": "component",
+      "component": "landing-page.footer-props",
+      "repeatable": true
+    },
+    "knowMore": {
+      "type": "component",
+      "component": "landing-page.footer-props",
+      "repeatable": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "component": "landing-page.footer-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

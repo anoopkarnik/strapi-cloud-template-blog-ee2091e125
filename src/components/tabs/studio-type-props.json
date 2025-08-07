@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_tabs_studio_type_props",
+  "info": {
+    "displayName": "StudioTypeProps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "subTypes": {
+      "type": "component",
+      "component": "tabs.studio-sub-type-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

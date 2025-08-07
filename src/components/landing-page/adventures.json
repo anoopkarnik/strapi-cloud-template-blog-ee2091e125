@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_landing_page_adventures",
+  "info": {
+    "displayName": "AdventureProps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagePath": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

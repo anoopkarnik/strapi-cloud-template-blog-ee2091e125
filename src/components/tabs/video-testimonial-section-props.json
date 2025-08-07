@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_tabs_video_testimonial_section_props",
+  "info": {
+    "displayName": "VideoTestimonialSectionProps"
+  },
+  "options": {},
+  "attributes": {
+    "videoTestimonials": {
+      "type": "component",
+      "component": "tabs.video-testimonial-props",
+      "repeatable": true
+    },
+    "heading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

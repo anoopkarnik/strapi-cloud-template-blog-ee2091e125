@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_us_tabs",
+  "info": {
+    "singularName": "contact-us-tab",
+    "pluralName": "contact-us-tabs",
+    "displayName": "ContactUsTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "enquiryMail": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "phoneNumbers": {
+      "type": "component",
+      "component": "shared.phone-number-props",
+      "repeatable": true
+    },
+    "emails": {
+      "type": "component",
+      "component": "shared.email-props",
+      "repeatable": true
+    }
+  }
+}

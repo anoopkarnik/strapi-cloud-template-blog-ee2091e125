@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tabs_values_description_props",
+  "info": {
+    "displayName": "ValuesDescriptionProps"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

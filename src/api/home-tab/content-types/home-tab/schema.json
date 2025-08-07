@@ -1,0 +1,75 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_tabs",
+  "info": {
+    "singularName": "home-tab",
+    "pluralName": "home-tabs",
+    "displayName": "HomeTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NavbarSection": {
+      "type": "component",
+      "component": "landing-page-sections.navbar-section",
+      "repeatable": false
+    },
+    "HeroSection": {
+      "type": "component",
+      "component": "landing-page-sections.hero-section",
+      "repeatable": false
+    },
+    "AboutSection": {
+      "type": "component",
+      "component": "landing-page-sections.about-section",
+      "repeatable": false
+    },
+    "ServiceSection": {
+      "type": "component",
+      "component": "landing-page-sections.service-section",
+      "repeatable": false
+    },
+    "TeamSection": {
+      "type": "component",
+      "component": "landing-page-sections.team-section",
+      "repeatable": false
+    },
+    "AdventureSection": {
+      "type": "component",
+      "component": "landing-page-sections.adventure-section",
+      "repeatable": false
+    },
+    "StudioSection": {
+      "type": "component",
+      "component": "landing-page-sections.studio-section",
+      "repeatable": false
+    },
+    "CampTypeSection": {
+      "type": "component",
+      "component": "landing-page-sections.camp-type-section",
+      "repeatable": false
+    },
+    "TestimonialSection": {
+      "type": "component",
+      "component": "landing-page-sections.testimonial-section",
+      "repeatable": false
+    },
+    "VideoTestimonialSection": {
+      "type": "component",
+      "component": "landing-page-sections.video-testimonial-section",
+      "repeatable": false
+    },
+    "EnquirySection": {
+      "type": "component",
+      "component": "landing-page-sections.enquiry-section",
+      "repeatable": false
+    },
+    "FooterSection": {
+      "type": "component",
+      "component": "landing-page-sections.footer-section",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tabs_value_props",
+  "info": {
+    "displayName": "ValueProps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_tabs",
+  "info": {
+    "singularName": "about-tab",
+    "pluralName": "about-tabs",
+    "displayName": "AboutTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutUs": {
+      "type": "text"
+    },
+    "mission": {
+      "type": "text"
+    },
+    "vision": {
+      "type": "text"
+    },
+    "founderImagePath": {
+      "type": "string"
+    },
+    "founderImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "values": {
+      "type": "component",
+      "component": "tabs.value-props",
+      "repeatable": true
+    },
+    "valuesDescription": {
+      "type": "component",
+      "component": "tabs.values-description-props",
+      "repeatable": true
+    },
+    "founders": {
+      "type": "component",
+      "component": "tabs.founder-props",
+      "repeatable": true
+    }
+  }
+}

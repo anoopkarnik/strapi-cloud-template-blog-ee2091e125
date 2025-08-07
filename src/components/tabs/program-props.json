@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_tabs_program_props",
+  "info": {
+    "displayName": "ProgramProps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "altitude": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "string"
+    },
+    "minimumAge": {
+      "type": "integer"
+    },
+    "bestTimeToVisit": {
+      "type": "string"
+    },
+    "pickUpPoint": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "cancellation30DaysPrior": {
+      "type": "decimal"
+    },
+    "cancellation15to30DaysPrior": {
+      "type": "decimal"
+    },
+    "cancellation7to15DaysPrior": {
+      "type": "decimal"
+    },
+    "images": {
+      "type": "component",
+      "component": "shared.image-props",
+      "repeatable": true
+    },
+    "include": {
+      "type": "component",
+      "component": "shared.points-props",
+      "repeatable": true
+    },
+    "exclude": {
+      "type": "component",
+      "component": "shared.points-props",
+      "repeatable": true
+    },
+    "itenary": {
+      "type": "component",
+      "component": "tabs.itenary-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

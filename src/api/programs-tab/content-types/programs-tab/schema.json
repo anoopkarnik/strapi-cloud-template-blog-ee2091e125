@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "programs_tabs",
+  "info": {
+    "singularName": "programs-tab",
+    "pluralName": "programs-tabs",
+    "displayName": "ProgramsTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "programs": {
+      "type": "component",
+      "component": "tabs.program-props",
+      "repeatable": true
+    }
+  }
+}

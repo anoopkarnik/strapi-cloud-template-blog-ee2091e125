@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_landing_page_sections_camp_type_sections",
+  "info": {
+    "displayName": "campTypeSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "campTypes": {
+      "type": "component",
+      "component": "landing-page.camp-type",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

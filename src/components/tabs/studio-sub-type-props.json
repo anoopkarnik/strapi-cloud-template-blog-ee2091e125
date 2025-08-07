@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tabs_studio_sub_type_props",
+  "info": {
+    "displayName": "StudioSubTypeProps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

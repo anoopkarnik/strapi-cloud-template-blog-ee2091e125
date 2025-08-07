@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_landing_page_hero_props",
+  "info": {
+    "displayName": "HeroProps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagePath": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

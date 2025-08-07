@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_landing_page_sections_enquiry_sections",
+  "info": {
+    "displayName": "EnquirySection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

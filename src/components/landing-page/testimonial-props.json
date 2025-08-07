@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_landing_page_testimonial_props",
+  "info": {
+    "displayName": "TestimonialProps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

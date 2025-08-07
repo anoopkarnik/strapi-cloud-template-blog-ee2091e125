@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_landing_page_sections_explore_team_sections",
+  "info": {
+    "displayName": "ExploreTeamSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "quote1": {
+      "type": "string"
+    },
+    "quote2": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_image_props",
+  "info": {
+    "displayName": "ImageProps"
+  },
+  "options": {},
+  "attributes": {
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

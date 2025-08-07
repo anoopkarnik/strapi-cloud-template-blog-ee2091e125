@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_phone_number_props",
+  "info": {
+    "displayName": "PhoneNumberProps"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_page_sections_service_sections",
+  "info": {
+    "displayName": "ServiceSection"
+  },
+  "options": {},
+  "attributes": {
+    "services": {
+      "type": "component",
+      "component": "landing-page.service-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

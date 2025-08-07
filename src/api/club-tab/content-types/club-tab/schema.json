@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "club_tabs",
+  "info": {
+    "singularName": "club-tab",
+    "pluralName": "club-tabs",
+    "displayName": "ClubTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "posterPath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "poster": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mainPoints": {
+      "type": "component",
+      "component": "tabs.main-point-props",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_landing_page_sections_video_testimonial_sections",
+  "info": {
+    "displayName": "VideoTestimonialSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "videoTestimonials": {
+      "type": "component",
+      "component": "landing-page.video-testimonial-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

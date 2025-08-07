@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonial_tabs",
+  "info": {
+    "singularName": "testimonial-tab",
+    "pluralName": "testimonial-tabs",
+    "displayName": "TestimonialTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "tabs.testimonial-section-props",
+      "repeatable": false
+    },
+    "videoTestimonials": {
+      "type": "component",
+      "component": "tabs.video-testimonial-section-props",
+      "repeatable": false
+    }
+  }
+}

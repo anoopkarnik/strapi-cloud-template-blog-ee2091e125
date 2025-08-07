@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_landing_page_sections_navbar_sections",
+  "info": {
+    "displayName": "NavbarSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "darkLogo": {
+      "type": "string"
+    },
+    "logoMedia": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "darkLogoMedia": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "routeList": {
+      "type": "component",
+      "component": "landing-page.route-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

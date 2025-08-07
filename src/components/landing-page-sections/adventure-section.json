@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_landing_page_sections_adventure_sections",
+  "info": {
+    "displayName": "AdventureSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "adventures": {
+      "type": "component",
+      "component": "landing-page.adventures",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

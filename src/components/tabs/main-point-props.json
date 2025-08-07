@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tabs_main_point_props",
+  "info": {
+    "displayName": "MainPointProps"
+  },
+  "options": {},
+  "attributes": {
+    "point": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

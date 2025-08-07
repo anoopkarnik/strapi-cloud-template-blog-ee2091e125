@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_landing_page_contact_info_props",
+  "info": {
+    "displayName": "ContactInfoProps"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "string"
+    },
+    "phoneNumbers": {
+      "type": "component",
+      "component": "shared.phone-number-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_tabs_video_testimonial_props",
+  "info": {
+    "displayName": "VideoTestimonialProps"
+  },
+  "options": {},
+  "attributes": {
+    "path": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

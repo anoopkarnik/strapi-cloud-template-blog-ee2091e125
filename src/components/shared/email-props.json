@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_email_props",
+  "info": {
+    "displayName": "EmailProps"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

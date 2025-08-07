@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_page_route_props",
+  "info": {
+    "displayName": "RouteProps"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

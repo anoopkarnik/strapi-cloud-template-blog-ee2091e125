@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_page_footer_props",
+  "info": {
+    "displayName": "FooterProps"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_landing_page_sections_about_sections",
+  "info": {
+    "displayName": "AboutSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "secondHeading": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

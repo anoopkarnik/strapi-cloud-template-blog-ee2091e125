@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_landing_page_camp_types",
+  "info": {
+    "displayName": "CampTypeProps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagePath": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

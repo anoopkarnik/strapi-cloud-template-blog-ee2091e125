@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_tabs_itenary_props",
+  "info": {
+    "displayName": "ItenaryProps"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "component",
+      "component": "shared.description-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

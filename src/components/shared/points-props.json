@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_points_props",
+  "info": {
+    "displayName": "PointsProps"
+  },
+  "options": {},
+  "attributes": {
+    "point": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

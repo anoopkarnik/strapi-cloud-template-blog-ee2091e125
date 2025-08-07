@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_page_sections_hero_sections",
+  "info": {
+    "displayName": "HeroSection"
+  },
+  "options": {},
+  "attributes": {
+    "heroes": {
+      "type": "component",
+      "component": "landing-page.hero-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_tabs_testimonial_section_props",
+  "info": {
+    "displayName": "TestimonialSectionProps"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "testimonials": {
+      "type": "component",
+      "component": "tabs.testimonial-props",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

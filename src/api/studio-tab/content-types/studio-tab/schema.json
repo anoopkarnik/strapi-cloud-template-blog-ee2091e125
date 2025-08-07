@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "studio_tabs",
+  "info": {
+    "singularName": "studio-tab",
+    "pluralName": "studio-tabs",
+    "displayName": "StudioTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "imagePath": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "types": {
+      "type": "component",
+      "component": "tabs.studio-type-props",
+      "repeatable": true
+    }
+  }
+}
