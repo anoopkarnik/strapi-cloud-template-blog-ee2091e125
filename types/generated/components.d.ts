@@ -477,6 +477,10 @@ export interface TabsStudioSubTypeProps extends Struct.ComponentSchema {
   };
   attributes: {
     label: Schema.Attribute.String;
+    media: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
     name: Schema.Attribute.String;
   };
 }
