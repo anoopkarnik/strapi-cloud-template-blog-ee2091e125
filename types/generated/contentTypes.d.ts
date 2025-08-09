@@ -569,6 +569,7 @@ export interface ApiContactUsTabContactUsTab extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     emails: Schema.Attribute.Component<'shared.email-props', true>;
     enquiryMail: Schema.Attribute.String;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     imagePath: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<

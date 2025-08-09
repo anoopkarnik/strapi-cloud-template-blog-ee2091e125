@@ -32,6 +32,16 @@
       "type": "component",
       "component": "shared.email-props",
       "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
